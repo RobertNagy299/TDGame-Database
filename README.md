@@ -3,7 +3,11 @@
  <!--### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)-->
 
 <h2>Description</h2>
-Project consists of PHP scripts for basic database functionality, extended with some custom features. Implementation can be seen in my "Connecting an external database to a C# application" repository.
+The project consists of PHP scripts for basic database functionality, extended with some custom features. Implementation can be seen in my "Connecting an external database to a C# application" repository.
+<br><br>
+The database is secure against basic SQL injections because the data stored is either stripped of its tags or passed through the SHA-256 hash function.
+<br><br>
+Sensitive user data, like passwords and emails, is all stored in the form of SHA-256 hash strings.
 <br />
 
 
@@ -17,10 +21,9 @@ Project consists of PHP scripts for basic database functionality, extended with 
 - <b>Windows 10</b>
 - <b>000Webhost (for free storage and hosting)</b>
 
-<h2>Program walk-through:</h2>
 
-Upload the files to a website (I used 000webhost for a free website, that came with a free MySQL database with a storage of 1 GB, and I could also upload the PHP scripts to the website's scripts section)
-Make sure to check out the C# implementation in my "Connecting an external database to a C# application" repository, in order to see how the database actually communicated with the Unity game.
+
+
 <!--<p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
