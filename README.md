@@ -19,7 +19,9 @@ Project consists of PHP scripts for basic database functionality, extended with 
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
+Upload the files to a website (I used 000webhost for a free website, that came with a free MySQL database with a storage of 1 GB, and I could also upload the PHP scripts to the website's scripts section)
+Make sure to check out the C# implementation in my "Connecting an external database to a C# application" repository, in order to see how the database actually communicated with the Unity game.
+<!--<p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -47,6 +49,7 @@ Sanitization complete:  <br/>
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+-->
 
 <!--
  ```diff
